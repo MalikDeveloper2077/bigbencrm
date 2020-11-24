@@ -12,6 +12,7 @@
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
+    "vuetify": "^2.3.18",
     "vuex": "^3.4.0"
   },
   "devDependencies": {
@@ -40,7 +41,17 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "vue/html-closing-bracket-newline": "warn",
+      "vue/no-multi-spaces": "error",
+      "vue/attributes-order": "warn",
+      "vue/no-confusing-v-for-v-if": "warn",
+      "vue/arrow-spacing": "warn",
+      "vue/block-spacing": "warn",
+      "vue/brace-style": "warn",
+      "vue/dot-location": "warn",
+      "vue/eqeqeq": "warn"
+    }
   },
   "browserslist": [
     "> 1%",
